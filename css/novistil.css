@@ -1,0 +1,67 @@
+ul.navbar-nav > li > a{
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    
+}
+
+ul.navbar-nav > li.nav-item.dropdown > ul.dropdown-menu > li > a{
+    letter-spacing: 0.15rem;
+    
+}
+
+
+
+
+section{
+    margin-top: 2rem;
+
+}
+
+.list-unstyled li{
+    padding: 1.5rem;
+    border-bottom: 1px solid #343a40;
+}
+
+.list-unstyled li a{
+    color: black;
+    text-decoration: none;
+}
+
+footer{
+    padding: 2rem;
+    background-color: rgb(159, 205, 252);
+    margin-top: 2rem;
+}
+
+footer a{
+    color:#000000;
+    transition: color 0.2s ease-in;
+    padding: 0.4rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+
+    color: rgb(163, 18, 18);
+}
+footer p{
+    letter-spacing: 0.2rem;
+    text-transform:uppercase;
+
+}
+
+
+
+div[class^="col-sm-6 col-lg-6 item"]{
+    padding: 0;
+}
+div[class^="col-sm-6 col-lg-4 item"]{
+    padding: 0;
+}
+div[class^="col-sm-6 col-lg-12 item"]{
+    padding: 0;
+}
